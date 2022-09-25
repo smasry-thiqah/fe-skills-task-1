@@ -1,0 +1,10 @@
+// loading initial values to be used by bootstrap
+@import "font";
+@import "theme";
+
+// add bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// add custom styling
+@import "layout";
+@import "components";

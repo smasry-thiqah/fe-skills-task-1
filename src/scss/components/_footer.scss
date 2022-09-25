@@ -1,0 +1,117 @@
+.footer {
+  background: map-get($theme-colors, "primary");
+
+  color: white;
+  position: relative;
+
+  .footer-contentWrapper {
+    padding-top: 55px;
+    padding-bottom: 28px;
+
+    .footer-brand {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      font-size: 34px;
+    }
+
+    .footer-linksSection {
+      display: flex;
+      gap: 52px;
+
+      .footer-linksSection-col {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        .footer-linksSection-title {
+          font-weight: 500;
+          font-size: 18px;
+          padding-bottom: 2px;
+          border-bottom: 2px solid white;
+          margin-bottom: calc(34px - 18px);
+          width: fit-content;
+        }
+        .footer-linksSection-link {
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+          padding-left: 0;
+          padding-right: 8px;
+          transition: padding 0.5s ease;
+          &:hover {
+            padding-left: 8px;
+            padding-right: 0;
+          }
+        }
+      }
+    }
+
+    .footer-subscribeSection {
+      width: 394px;
+      &-text {
+        font-size: 18px;
+      }
+      &-form {
+        display: flex;
+        gap: 10px;
+
+        .footer-form-control {
+          border: none;
+          display: block;
+          flex-grow: 1;
+          border-radius: 3px;
+          padding: 16px 10px;
+          font-size: 14px;
+        }
+        .footer-form-btn {
+          display: block;
+          flex-shrink: 0;
+          flex-grow: 0;
+          background: white;
+          color: map-get($theme-colors, "primary");
+          font-size: 16px;
+          font-weight: bold;
+          padding: 16px;
+          border-radius: 3px;
+
+          &:hover {
+            color: map-get($theme-colors, "primary");
+          }
+        }
+      }
+    }
+  }
+
+  .footer-copyright {
+    border-top: 1px solid white;
+    .footer-copyright-text {
+      font-size: 10.41px;
+      font-weight: bold;
+    }
+    .footer-socials {
+      gap: 18px;
+      .footer-social-icon {
+        max-height: 16px;
+      }
+    }
+  }
+
+  &::before,
+  &::after {
+    width: 188px;
+    height: 149px;
+    content: "";
+    position: absolute;
+    background-size: cover;
+    top: -149px;
+  }
+
+  &::before {
+    background-image: url("../assets/images/squares-blue.png");
+  }
+
+  &::after {
+    background-image: url("../assets/images/squares-orange.svg");
+    right: 0;
+  }
+}

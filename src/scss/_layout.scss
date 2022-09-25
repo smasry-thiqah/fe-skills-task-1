@@ -1,0 +1,25 @@
+.l-page {
+  background: linear-gradient(
+        to bottom,
+        rgba(#4a99d3, 0.2) -24.57%,
+        rgba(74, 153, 211, 0) 76.31%
+      )
+      no-repeat top,
+    #ffffff;
+  background-size: 100% 600px;
+  min-height: 100%;
+  min-width: 100%;
+
+  .l-header {
+    padding-top: calc(45px - 8px - 5px);
+    .navbar-nav {
+      gap: 50px;
+    }
+  }
+
+  .l-footer {
+    .l-footer-copyright {
+      height: 57px;
+    }
+  }
+}

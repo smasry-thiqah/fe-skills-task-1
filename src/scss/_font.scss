@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Objective;
+  src: url("./../assets/fonts/obective/Objective_Woff2/Objective-Bold.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Objective;
+  src: url("./../assets/fonts/obective/Objective_Woff2/Objective-Regular.woff2");
+}
+@font-face {
+  font-family: Objective;
+  src: url("./../assets/fonts/obective/Objective_Woff2/Objective-Light.woff2");
+  font-weight: light;
+}
+
+$font-family-base: "Objective";

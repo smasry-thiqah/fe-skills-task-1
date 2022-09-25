@@ -1,0 +1,19 @@
+.navbar {
+  &-brand {
+    font-size: 40px;
+  }
+
+  &-nav {
+    .nav {
+      &-link {
+        font-size: 18px;
+        color: map-get($theme-colors, "black");
+
+        &--active {
+          color: map-get($theme-colors, "primary");
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

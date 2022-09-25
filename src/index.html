@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <div class="l-page">
+      <header class="l-header">
+        <nav class="navbar navbar-expand-lg bg-none">
+          <div class="container small-container">
+            <a href="#" class="navbar-brand fw-bold text-primary">LOGO</a>
+            <div class="collapse navbar-collapse justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link px-0" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link px-0" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link px-0 nav-link--active" href="#"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="overflow-hidden">
+        <div class="container small-container">
+          <div class="card-wrapper">
+            <div class="custom-card">
+              <h1 class="card-title">Get In Touch</h1>
+              <h3 class="card-subtitle">Leave us a message</h3>
+              <div class="card-body">
+                <div class="card-formContainer">
+                  <form action="POST" class="card-form">
+                    <div class="custom-form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="custom-input"
+                        placeholder=" "
+                      />
+                      <label for="name" class="label-floating"> Name </label>
+                    </div>
+                    <div class="custom-form-group">
+                      <input
+                        type="email"
+                        name="email"
+                        class="custom-input"
+                        placeholder=" "
+                      />
+                      <label for="email" class="label-floating">
+                        Email Address
+                      </label>
+                    </div>
+                    <div class="custom-form-group expanding-input">
+                      <textarea
+                        class="custom-input"
+                        placeholder=" "
+                        name="message"
+                      ></textarea>
+                      <label for="message" class="label-floating">
+                        Your Message
+                      </label>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary text-white form-btn"
+                    >
+                      Send
+                    </button>
+                  </form>
+                </div>
+                <div class="card-infoContainer">
+                  <div class="card-infoGrid">
+                    <div class="card-infoRow">
+                      <div class="card-infoIconContainer">
+                        <img
+                          src="./assets/images/icons/location-outline.svg"
+                          alt="Location"
+                          class="card-infoIcon"
+                        />
+                      </div>
+                      <div class="card-infoTextContainer">
+                        <p class="card-infoText">
+                          Infomation technologies building, Victoria Island,
+                          Lagos, Nigeria.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-infoRow">
+                      <div class="card-infoIconContainer">
+                        <img
+                          src="./assets/images/icons/phone-outline.svg"
+                          alt="Phone"
+                          class="card-infoIcon"
+                        />
+                      </div>
+                      <div class="card-infoTextContainer">
+                        <p class="card-infoText">+234 081-1236-4568</p>
+                      </div>
+                    </div>
+                    <div class="card-infoRow">
+                      <div class="card-infoIconContainer">
+                        <img
+                          src="./assets/images/icons/mail-outline.svg"
+                          alt="Mail"
+                          class="card-infoIcon"
+                        />
+                      </div>
+                      <div class="card-infoTextContainer">
+                        <p class="card-infoText">hello@info.com.ng</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-socialLinkList">
+                    <a href="#" class="card-socialLink">
+                      <img
+                        src="./assets/images/icons/youtube-black.svg"
+                        alt=""
+                        class="card-socialLinkImg"
+                      />
+                    </a>
+                    <a href="#" class="card-socialLink">
+                      <img
+                        src="./assets/images/icons/instagram-black.svg"
+                        alt=""
+                        class="card-socialLinkImg"
+                      />
+                    </a>
+                    <a href="#" class="card-socialLink">
+                      <img
+                        src="./assets/images/icons/facebook-black.svg"
+                        alt=""
+                        class="card-socialLinkImg"
+                      />
+                    </a>
+                    <a href="#" class="card-socialLink">
+                      <img
+                        src="./assets/images/icons/twitter-black.svg"
+                        alt=""
+                        class="card-socialLinkImg"
+                      />
+                    </a>
+                  </div>
+                  <img
+                    src="./assets/images/map.png"
+                    alt="Map"
+                    class="card-map"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="l-footer footer">
+        <section class="l-footer-main">
+          <div class="container">
+            <div class="d-flex footer-contentWrapper justify-content-between">
+              <a href="#" class="footer-brand">LOGO</a>
+              <section class="footer-linksSection">
+                <div class="footer-linksSection-col">
+                  <label class="footer-linksSection-title">Quick Links</label>
+                  <a href="#" class="footer-linksSection-link">Sign Up</a>
+                  <a href="#" class="footer-linksSection-link">About Us</a>
+                </div>
+                <div class="footer-linksSection-col">
+                  <label class="footer-linksSection-title">Others</label>
+                  <a href="#" class="footer-linksSection-link">User FAQs</a>
+                  <a href="#" class="footer-linksSection-link">Contact Us</a>
+                  <a href="#" class="footer-linksSection-link">Legal</a>
+                  <a href="#" class="footer-linksSection-link"
+                    >Privacy Policy</a
+                  >
+                  <a href="#" class="footer-linksSection-link"
+                    >Terms and Conditions</a
+                  >
+                </div>
+                <div class="footer-linksSection-col">
+                  <label class="footer-linksSection-title">Products</label>
+                  <a href="#" class="footer-linksSection-link">Send</a>
+                  <a href="#" class="footer-linksSection-link">Receive</a>
+                  <a href="#" class="footer-linksSection-link">Buy</a>
+                </div>
+              </section>
+              <section class="footer-subscribeSection">
+                <p class="footer-subscribeSection-text">
+                  Subscribe to our newsletter and be the first to know about our
+                  updates
+                </p>
+                <form action="POST" class="footer-subscribeSection-form">
+                  <input
+                    type="email"
+                    name="subscribeEmail"
+                    id="subscribeEmail"
+                    placeholder="Email Address"
+                    class="footer-form-control"
+                  />
+                  <button type="submit" class="btn footer-form-btn">
+                    Subscribe
+                  </button>
+                </form>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section class="l-footer-copyright footer-copyright">
+          <div class="container h-100">
+            <div
+              class="d-flex justify-content-between align-items-center h-100"
+            >
+              <p class="mb-0 footer-copyright-text">
+                Copyright &copy; 2020. All rights reserved.
+              </p>
+              <div class="footer-socials d-flex">
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/icons/youtube.svg"
+                  alt="Youtube"
+                />
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/icons/instagram.svg"
+                  alt="Instagram"
+                />
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/icons/facebook.svg"
+                  alt="Facebook"
+                />
+                <img
+                  class="footer-social-icon"
+                  src="./assets/images/icons/twitter.svg"
+                  alt="Twitter"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
